@@ -75,6 +75,7 @@ import { ViewHostDirective } from './directives/view-host/view-host.directive';
 import { dynamicComponents } from './dynamic-components';
 import { ViewContainerComponent } from './components/view/view-container.component';
 import { MissingComponentComponent } from './components/missing-component/missing-component.component';
+import { BottomPanelComponent } from './components/smart/bottom-panel/bottom-panel.component';
 
 @NgModule({
   declarations: [
@@ -144,6 +145,7 @@ import { MissingComponentComponent } from './components/missing-component/missin
     ViewHostDirective,
     ViewContainerComponent,
     MissingComponentComponent,
+    BottomPanelComponent,
   ],
   entryComponents: [
     AlertComponent,
@@ -279,6 +281,7 @@ import { MissingComponentComponent } from './components/missing-component/missin
     StepperComponent,
     ViewHostDirective,
     ViewContainerComponent,
+    BottomPanelComponent,
   ],
 })
 export class SharedModule {}
